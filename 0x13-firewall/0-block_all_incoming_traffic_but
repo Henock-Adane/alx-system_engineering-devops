@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+# set up ufw in order to block incoming traffic except the next openssh
+
 ufw status verbose
 ufw default deny incoming
 ufw default allow outgoing
